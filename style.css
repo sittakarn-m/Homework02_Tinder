@@ -1,0 +1,137 @@
+*{
+    font-family: "Roboto", sans-serif;
+    /* font-weight: 300; */
+    font-style: normal;
+}
+body {
+    box-sizing: border-box;
+    /* background-color: aqua; */
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.829), rgba(0, 0, 0, 0.438), rgba(0, 0, 0, 0.829)), url(./img/tinder_bg_index.webp);
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin-top: 0;
+}
+
+header {
+    /* background-color: blueviolet; */
+    display: flex;
+    /* text-align: center; */
+
+}
+
+.header02,
+.header03 {
+    display: inline-block;
+    padding-block: auto;
+    margin-top: 46px;
+    font-size: 1.2rem;
+
+}
+
+.header01 {
+    /* background-color: chartreuse; */
+    display: inline-block;
+    /* flex: 20%; */
+}
+
+.header02 {
+    /* background-color: brown; */
+    flex: 40%;
+}
+
+.header03 {
+    /* background-color: chocolate; */
+    /* flex-direction: row-reverse; */
+    flex: 40%;
+    text-align: end;
+
+}
+
+a {
+    margin-right: 10px;
+}
+
+a:link {
+    color: rgb(255, 255, 255);
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:visited {
+    color: rgb(255, 255, 255);
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(255, 45, 45);
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+a:active {
+    color: rgb(182, 182, 182);
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.lang {
+    background: transparent;
+    border: none;
+    text-decoration: none;
+    border-radius: 20px;
+    color: white;
+    font-size: 1.2rem;
+    padding-block: 10px;
+    padding-inline: 20px;
+}
+
+.lang:hover {
+    background-color: rgba(255, 255, 255, 0.377);
+}
+
+.button {
+    border-radius: 20px;
+    text-decoration: none;
+    border: none;
+    font-size: 1.2rem;
+    padding-block: 10px;
+    padding-inline: 30px;
+}
+
+.button:hover {
+    color: rgba(10, 10, 10, 0.795);
+}
+
+section {
+    /* background-color: blue; */
+    color: white;
+    text-align: center;
+    font-size: 4rem;
+    padding-block: 220px;
+    /* padding-top: 240px; */
+}
+section h1{
+    margin-bottom: 10px;
+}
+section .button02{
+    padding-block: 15px;
+    padding-inline: 30px;
+    font-size: 1.2rem;
+    border-radius: 20px;
+    border: none;
+    background: rgb(255,38,166);
+    background: linear-gradient(10deg, rgba(255,38,166,1) 0%, rgba(255,38,166,1) 74%, rgba(255,192,0,1) 100%);
+    color: white;
+
+}
+.button02:hover {
+    background: linear-gradient(10deg, rgba(255, 115, 197,1) 0%, rgba(255, 115, 197,1) 74%, rgba(250, 204, 68,1) 100%);
+}
+
+footer {
+    /* background-color: coral; */
+    color: white;
+    text-align: end;
+    margin-top: 60px;
+}
